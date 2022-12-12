@@ -1,0 +1,57 @@
+/**
+ * Polaris Sizing Plugin v1.1.0
+ * MIT License github.com/heminsatya/polaris-plugins | © 2022 polarisui.com
+**/
+// -------------------------------------------------- //
+//                    Constructor                     //
+// -------------------------------------------------- //
+@use 'sass:math';
+@use "sass:map";
+
+@import "./bootstrap";
+
+
+/* -------------------------------------------------- */
+/*                        Width                       */
+/* -------------------------------------------------- */
+// -- Component Classes -- //
+/*
+* width
+*/
+@include component-class($sizings-plugin, $name-width, "width", $strict-sizing);
+@include responsive-component-class($sizings-plugin, $name-width, "width", $responsive-sizing, $strict-sizing);
+
+/*
+* min-width
+*/
+@include component-class($sizings-plugin, $name-min-width, "min-width", $strict-sizing);
+@include responsive-component-class($sizings-plugin, $name-min-width, "min-width", $responsive-sizing, $strict-sizing);
+
+/*
+* max-with
+*/
+@include component-class($sizings-plugin, $name-max-width, "max-width", $strict-sizing);
+@include responsive-component-class($sizings-plugin, $name-max-width, "max-width", $responsive-sizing, $strict-sizing);
+
+
+/* -------------------------------------------------- */
+/*                       Height                       */
+/* -------------------------------------------------- */
+// -- Component Classes -- //
+/*
+* height
+*/
+@include component-class($sizings-plugin, $name-height, "height", $strict-sizing);
+@include responsive-component-class($sizings-plugin, $name-height, "height", $responsive-sizing, $strict-sizing);
+
+/*
+* min-height
+*/
+@include component-class($sizings-plugin, $name-min-height, "min-height", $strict-sizing);
+@include responsive-component-class($sizings-plugin, $name-min-height, "min-height", $responsive-sizing, $strict-sizing);
+
+/*
+* max-height
+*/
+@include component-class($sizings-plugin, $name-max-height, "max-height", $strict-sizing);
+@include responsive-component-class($sizings-plugin, $name-max-height, "max-height", $responsive-sizing, $strict-sizing);
