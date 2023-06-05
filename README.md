@@ -1,6 +1,6 @@
-# Polaris Sizing Plugin (v1.2.1)
+# Polaris Sizing Plugin (v1.2.2)
 
-In addition to the built-in core colors comes with [Polaris framework](https://github.com/heminsatya/polaris-core), you can also use a set of flat and beautiful colors.
+In addition to the built-in features and components comes with [Polaris framework](https://github.com/heminsatya/polaris), you can also use a set of useful plugins.
 
 Polaris Sizing Plugin contains a set of responsive classes for controlling the `width` and `height` of HTML elements.
 

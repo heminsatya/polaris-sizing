@@ -1,5 +1,5 @@
 const msg = `
-    Polaris Sizing Plugin v1.2.1
+    Polaris Sizing Plugin v1.2.2
 `
 
 module.exports = msg
